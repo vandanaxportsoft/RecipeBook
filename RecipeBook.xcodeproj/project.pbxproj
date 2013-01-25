@@ -18,6 +18,10 @@
 		4D933DFF16A92F6900D0BD42 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D933DFE16A92F6900D0BD42 /* Default-568h@2x.png */; };
 		4D933E0216A92F6900D0BD42 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D933E0016A92F6900D0BD42 /* MainStoryboard.storyboard */; };
 		4D933E0516A92F6900D0BD42 /* RecipeBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D933E0416A92F6900D0BD42 /* RecipeBookViewController.m */; };
+		4D96F47516AA5AA30073F803 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96F47416AA5AA30073F803 /* RecipeDetailViewController.m */; };
+		4D96F47916AA67C20073F803 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96F47816AA67C20073F803 /* AboutViewController.m */; };
+		4D96F47C16AA69040073F803 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D96F47B16AA69040073F803 /* about.jpg */; };
+		4D96F47E16AA690A0073F803 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 4D96F47D16AA690A0073F803 /* about.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,12 @@
 		4D933E0116A92F6900D0BD42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4D933E0316A92F6900D0BD42 /* RecipeBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeBookViewController.h; sourceTree = "<group>"; };
 		4D933E0416A92F6900D0BD42 /* RecipeBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeBookViewController.m; sourceTree = "<group>"; };
+		4D96F47316AA5AA30073F803 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		4D96F47416AA5AA30073F803 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		4D96F47716AA67C20073F803 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		4D96F47816AA67C20073F803 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		4D96F47B16AA69040073F803 /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about.jpg; sourceTree = "<group>"; };
+		4D96F47D16AA690A0073F803 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +93,14 @@
 		4D933DEE16A92F6900D0BD42 /* RecipeBook */ = {
 			isa = PBXGroup;
 			children = (
+				4D96F47A16AA68EB0073F803 /* Images */,
 				4D933DF716A92F6900D0BD42 /* RecipeBookAppDelegate.h */,
 				4D933DF816A92F6900D0BD42 /* RecipeBookAppDelegate.m */,
 				4D933E0016A92F6900D0BD42 /* MainStoryboard.storyboard */,
+				4D96F47716AA67C20073F803 /* AboutViewController.h */,
+				4D96F47816AA67C20073F803 /* AboutViewController.m */,
+				4D96F47316AA5AA30073F803 /* RecipeDetailViewController.h */,
+				4D96F47416AA5AA30073F803 /* RecipeDetailViewController.m */,
 				4D933E0316A92F6900D0BD42 /* RecipeBookViewController.h */,
 				4D933E0416A92F6900D0BD42 /* RecipeBookViewController.m */,
 				4D933DEF16A92F6900D0BD42 /* Supporting Files */,
@@ -105,6 +120,15 @@
 				4D933DFE16A92F6900D0BD42 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D96F47A16AA68EB0073F803 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D96F47D16AA690A0073F803 /* about.html */,
+				4D96F47B16AA69040073F803 /* about.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +188,8 @@
 				4D933DFD16A92F6900D0BD42 /* Default@2x.png in Resources */,
 				4D933DFF16A92F6900D0BD42 /* Default-568h@2x.png in Resources */,
 				4D933E0216A92F6900D0BD42 /* MainStoryboard.storyboard in Resources */,
+				4D96F47C16AA69040073F803 /* about.jpg in Resources */,
+				4D96F47E16AA690A0073F803 /* about.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +203,8 @@
 				4D933DF516A92F6900D0BD42 /* main.m in Sources */,
 				4D933DF916A92F6900D0BD42 /* RecipeBookAppDelegate.m in Sources */,
 				4D933E0516A92F6900D0BD42 /* RecipeBookViewController.m in Sources */,
+				4D96F47516AA5AA30073F803 /* RecipeDetailViewController.m in Sources */,
+				4D96F47916AA67C20073F803 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +321,7 @@
 				4D933E0A16A92F6900D0BD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
